@@ -1,0 +1,17 @@
+import { memo, SVGProps } from 'react';
+
+const WBcsWhiteContactUsSvgIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg preserveAspectRatio='none' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <path
+      d='M3.83218 5.1263C3.62579 4.94284 3.30975 4.96143 3.1263 5.16782C2.94284 5.37421 2.96143 5.69025 3.16782 5.8737L7.00345 9.28316C7.57178 9.78834 8.42822 9.78834 8.99655 9.28316L12.8322 5.8737C13.0386 5.69025 13.0572 5.37421 12.8737 5.16782C12.6902 4.96143 12.3742 4.94284 12.1678 5.1263L8.33218 8.53575C8.14274 8.70414 7.85726 8.70414 7.66782 8.53575L3.83218 5.1263Z'
+      fill='white'
+    />
+    <path
+      d='M2.5 3C1.67157 3 1 3.67157 1 4.5V11.5C1 12.3284 1.67157 13 2.5 13H13.5C14.3284 13 15 12.3284 15 11.5V4.5C15 3.67157 14.3284 3 13.5 3H2.5ZM2 4.5C2 4.22386 2.22386 4 2.5 4H13.5C13.7761 4 14 4.22386 14 4.5V11.5C14 11.7761 13.7761 12 13.5 12H2.5C2.22386 12 2 11.7761 2 11.5V4.5Z'
+      fill='white'
+    />
+  </svg>
+);
+
+const Memo = memo(WBcsWhiteContactUsSvgIcon);
+export { Memo as WBcsWhiteContactUsSvgIcon };
